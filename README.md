@@ -86,7 +86,9 @@ for testing.  This can be done with the following MySQL commands (see `db_create
         homepage VARCHAR(400),
         contact_name VARCHAR(100),
         contact_email VARCHAR(100),
-        description TEXT
+        description TEXT,
+		created DATETIME,
+		modified DATETIME
         );
 
 
